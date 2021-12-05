@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;     
+}
+h1{
+    font-size: 60px;
+}
+
+.fix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.top{
+    background: url(./personal-website/header-bg.png);
+    
+    
+    background-size: 100% 100% ;
+    
+    padding: 15px 8px 98px 76px;
+}
+.middle{
+    background: url(./personal-website/biography-bg.png);
+    background-size: 100% 100%;
+    padding: 96px 24px 75px 23px;
+}
+.button{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(deeppink,tomato);
+    border-radius: 6px;
+    padding: 10px 30px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 2%;
+    padding-left: 5%;
+}
+.work{
+    background: url(./personal-website/latest-work-bg.png);
+    background-size: 100% 100%;
+    padding:  43px 30px;
+    
+}
+.work h3{
+    text-align: center;
+}
+#latest{
+    text-align: center;
+    margin-bottom: 85px;
+}
+.three-width{
+    width: 28.3%;
+    float: left;
+    margin-left: 3%;
+    padding-left: 2%;
+}
+.three-width img{
+    width: 70%;
+}
+.half-width img{
+    width: 70%;
+}
+.name-highlight{
+    color: deeppink;
+}
+.yo {
+    margin-top: 225px;
+    text-align: center;
+}
+h5{
+    text-align: center;
+    font-weight: 100;
+}
+.work p{
+    text-align: center;
+}
